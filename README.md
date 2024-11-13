@@ -16,7 +16,7 @@ Transformer构建：[GitHub - JY-Ou/build\_a\_transformer: 从零搭建原始Tra
 - [Phi-3](https://arxiv.org/abs/2404.14219)
 
 使用`Alpaca`格式
-```jsonl
+```
 {'instruction': 'Identify the correct spelling of the following word.', 'input': 'Ocassion', 'output': "The correct spelling is 'Occasion.'"}
 {'instruction': "What is an antonym of 'complicated'?", 'input': '', 'output': "An antonym of 'complicated' is 'simple'."}
 ```
@@ -29,7 +29,7 @@ Transformer构建：[GitHub - JY-Ou/build\_a\_transformer: 从零搭建原始Tra
 Llama训练扩展：
 - LLAMA2-chat中user标识 是 `[INST]` ， assistant 标识是`[/INST]`，模型只能接受非结构化数据，利用chat模版转换输入如：`[INST]`今天天气怎样`[/INST]`今天天气很好
 - sft时input_ids对应模型输入，labels则是为了和模型输出计算loss，则只需在每轮对话头尾使用`[BOS]`和`[EOS]`
-```jsonl
+```
 chat_temp = [
                 {"role": "user", "content": Q1},
                 {"role": "assistant", "content": A1},
