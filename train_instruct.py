@@ -126,7 +126,7 @@ def main(arg):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="Florence_lora_train_OD", add_help=False)
+    parser = argparse.ArgumentParser(description="", add_help=False)
     # path
     parser.add_argument("--dataset_location", type=str, default="./data/alpaca_gpt4_data.json", help="path to dataset")
     parser.add_argument("--save_path", type=str, default='./output/model_checkpoints', help='path to save log')
