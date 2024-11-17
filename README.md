@@ -5,6 +5,7 @@
 
 [GitHub - rasbt/LLMs-from-scratch: Implement a ChatGPT-like LLM in PyTorch from scratch, step by step](https://github.com/rasbt/LLMs-from-scratch)
 
+Transformer构建：[GitHub - JY-Ou/build\_a\_transformer: 从零搭建原始Transformer](https://github.com/JY-Ou/build_a_transformer)
 
 模型使用`gpt2-medium (355M)`，加载 open-ai 预训练好的模型
 
